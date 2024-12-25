@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Construction_Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimaryDark">#B3E57A44</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/orange</item>
+    </style>
+
+        <style name="CustomTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <item name="boxStrokeColor">@color/orange</item>
+            <item name="boxStrokeWidth">1dp</item>
+            <item name="boxStrokeWidthFocused">2dp</item>
+            <item name="hintTextColor">@color/orange</item>
+            <item name="endIconMode">clear_text</item>
+        </style>
+<style name="buttons" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">8dp</item>
+
+</style>
+    <style name="MaterialShapeImageViewStyle" parent="Widget.MaterialComponents.ShapeableImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Construction_Calculator"
+        tools:targetApi="31">
+        <activity
+            android:name=".Paintwork"
+            android:exported="false" />
+        <activity
+            android:name=".Solar_Water_Heater"
+            android:exported="false" />
+        <activity
+            android:name=".Solar_Rooftop"
+            android:exported="false" />
+        <activity
+            android:name=".Air_Conditioner_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Tank_volume_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Flooring_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Boundary_Wall"
+            android:exported="false" />
+        <activity
+            android:name=".Concrete_Block_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Brick_Masanory"
+            android:exported="false" />
+        <activity
+            android:name=".Plaster_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Cement_Concrete_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Carpet_Area"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Constrution_Cost"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="jdjbkb"
+        >
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:id="@+id/txtarea"
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txttotalarea"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            >
+        </TextView>
+        <ImageView
+            android:id="@+id/deleteimg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/donotdisturb"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+
+            >
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>
